@@ -1,0 +1,115 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 13,
+    "editor.links": false,
+    "editor.renderLineHighlight": "gutter",
+    // Overrides colors from the currently selected color theme.
+    "workbench.colorCustomizations": {
+        "editor.background": "#060606",
+        "editor.foreground": "#bbbbbb",
+        "editorIndentGuide.background": "#40404028",
+        "editorIndentGuide.activeBackground": "#70707030",
+        "editor.selectionBackground": "#3E4260",
+        "editor.selectionHighlightBackground": "#383D51",
+        "editor.inactiveSelectionBackground": "#7e57c25a"
+        // "foreground": "#bbbbbb",
+        // "comment.foreground": "#bbbbbb"
+    },
+    "python.linting.pylintArgs": ["--errors-only"],
+    "python.autoComplete.extraPaths": [
+        "H:\\soft_\\Maya2018\\Python\\Lib\\site-packages\\"
+    ],
+
+    "bracket-pair-colorizer-2.colors": [
+        "#bbbbbb",
+        "#9d91bc",
+        "#bc91b3",
+        "#be8787",
+        "#a0be87"
+    ],
+
+    "editor.tokenColorCustomizations": {
+        "comments": "#65614E",
+        "textMateRules": [
+            {
+                "scope": [
+                    "keyword",
+                    "keyword.control",
+
+                    // "entity.name.tag",
+                    // "constant.language",
+                    "storage",
+                    "storage.type",
+                    "storage.modifier",
+
+                    "keyword.operator.logical",
+                    "keyword.operator",
+                    "keyword.operator.new"
+                    // "keyword.operator.expression",
+                    // "keyword.operator.cast",
+                    // "keyword.operator.sizeof",
+                    // "keyword.operator.logical.python"
+                ],
+                "settings": {
+                    "foreground": "#7d70b4"
+                }
+            },
+            {
+                "scope": [ "support.function" ],
+                "settings": {
+                    "foreground": "#c999c0"
+                }
+            },
+            {
+                "scope": [ "entity.name.function" ],
+                "settings": {
+                    "foreground": "#bf6d86"
+                }
+            },
+
+            {
+                "scope": [
+                    "constant.numeric",
+                    "constant.language",
+                    "constant.other"
+                ],
+                "settings": {
+                    "foreground": "#af8af2"
+                }
+            },
+            {
+                "name": "Variable and parameter name",
+                "scope": [
+                    "variable",
+                    "meta.definition.variable.name",
+                    "support.variable"
+                ],
+                "settings": {
+                    "foreground": "#bbbbd0"
+                }
+            },
+            {
+                "name": "this.self",
+                "scope": "variable.language",
+                "settings": {
+                    "foreground": "#bbbbe3"
+                }
+            }
+
+
+        ]
+
+    },
+    // "window.menuBarVisibility": "toggle",
+    "terminal.integrated.shell.windows": "bash.exe",
+    "window.zoomLevel": 0,
+    // "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe"
+
+    "javascript.implicitProjectConfig.checkJs": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.trimTrailingWhitespace": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.semi": false // so that [ts] errors wouldn't appear in js files
+}
